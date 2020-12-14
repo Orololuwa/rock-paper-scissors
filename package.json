@@ -1,0 +1,15 @@
+{
+  "name": "rock-paper-scissors-master",
+  "version": "1.0.0",
+  "description": "rock-paper-scissors project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack"
+  },
+  "author": "Emmanuel Orololuwa Awolusi",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
