@@ -1,0 +1,274 @@
+@media only screen and (max-width: 999px){
+    .main__background {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .player__components {
+        height: 450px;
+        width: 350px;
+        font-size: 25px;
+        padding-top: 5px;
+        margin: 0;
+    }
+
+
+    .focal__textbox{
+        height: 70px;
+        width: 300px;
+        font-weight: 700;
+        padding: 5px;
+        margin: 0 auto;
+    }
+    .logo{
+        display: block;
+        width: 70px;
+        height: 50px;
+        margin: auto 0;
+    }
+    .welcome{
+        font-size: 80%;
+    }
+    .grab{
+        font-size: 70%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .settings{
+        top: 2%;
+        right: 3%;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .settings-outline{
+        font-size: 120%;
+    }
+    .settings__list{
+        padding: 3px 0;
+        border-radius: 5px;
+        line-height: 15px;
+        margin-right: 0;
+        letter-spacing: 1px;
+        font-size: 50%;
+    }
+
+    .player__mode {
+        margin-top: 50px;
+        font-size: 60%;
+    }
+    .single__player, .multi__player{
+        width: 150px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .rules{
+        font-size: 60%;
+        padding: 10px;
+        text-align: center;
+        width: 70px;
+    }
+    .rules__display{
+        letter-spacing: 5px;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        padding: 10px;
+        width: 250px;
+        left: 15%;
+        top: 30%;
+    }
+    .rules__display img {
+        width: 200px;
+    }
+
+    .bg--triangle {
+        background: url(../images/bg-triangle.svg) no-repeat center;
+        background-position: 50% 75%;
+        background-size: 50%;
+    }
+    .bg--pentagon {
+        background: url(../images/bg-pentagon.svg) no-repeat center;
+        background-position: 50% 60%;
+        background-size: 60%;
+    }
+    
+    .rock,
+    .paper,
+    .scissors,
+    .lizard,
+    .spock{
+        height: 85px;
+        width: 85px;
+        background-size: 40%;
+    }
+    .paper {
+        border: 8px solid #5671f5;
+    }
+    .paper--triangle {
+        top: 40%;
+        left: 15%;
+    }
+    .paper--pentagon{
+        top: 40%;
+        right: 10%;
+    }
+    .scissors {
+        border: 8px solid #eca922;
+    }
+    .scissors--triangle{
+        top: 40%;
+        right: 15%;
+    }
+    .scissors--pentagon{
+        top: 23%;
+        left: 37%;
+    }
+    .rock {
+        border: 8px solid #dd405d;
+    }
+    .rock--triangle{
+        top: 72%;
+        left: 37.5%;
+    }
+    .rock--pentagon{
+        top: 70%;
+        right: 20%;
+    }
+    .lizard{
+        border: 8px solid #834fe3;
+        top: 70%;
+        left: 20%;
+    }
+    .spock{
+        border: 8px solid #40b9ce;
+        top: 40%;
+        left: 10%;
+    }
+
+
+    .score__player, 
+    .score__house {
+        font-size: 25px;
+        margin-top: 400px;
+        letter-spacing: 3px;
+        position: absolute;
+    }
+    .score__player{
+        left: 10%;
+    }
+    .score__house{
+        right: 10%;
+    }
+    .score__box{
+        height: 70px;
+        width: 80px;
+        margin-top: 10px;
+        padding-top: 3px;
+    }
+    .score{
+        margin-top: 5px;
+    }
+
+
+
+    .player{
+        left: 2%;
+        
+    }
+    .house{
+        bottom: 20%;
+        right: 2%;
+    }
+    .player__paper,
+    .house__paper {
+        background-size: auto;
+        border: 10px solid #5671f5;
+    }
+    .player__rock,
+    .house__rock {
+        background-size: auto;
+        border: 10px solid #dd405d;
+    }
+    .player__scissors,
+    .house__scissors {
+        background-size: auto;
+        border: 10px solid #eca922;
+    }
+    .player__lizard,
+    .house__lizard {
+        background-size: auto;
+        border: 10px solid #834fe3;
+    }
+    .player__spock,
+    .house__spock {
+        background-size: auto;
+        border: 10px solid #40b9ce;
+    }.player, .house{
+        height: 120px;
+        width: 120px;
+        bottom: 20%;
+    }
+
+    
+
+    .player__text,
+    .house__text{
+        font-size: 55%;
+    }
+
+    .player__win_1{
+        height: 135px;
+        width: 135px;
+        bottom: 18.5%;
+        left: 0%;
+    }
+    .player__win_2{
+        height: 150px;
+        width: 150px;
+        bottom: 17%;
+        left: -2%;
+    }
+    .player__win_3{
+        height: 165px;
+        width: 165px;
+        bottom: 15.5%;
+        left: -4%;
+    }
+    .house__win_1{
+        height: 135px;
+        width: 135px;
+        bottom: 18.5%;
+        right: 0%;
+    }
+    .house__win_2{
+        height: 150px;
+        width: 150px;
+        bottom: 17%;
+        right: -2%;
+    }
+    .house__win_3{
+        height: 165px;
+        width: 165px;
+        bottom: 15.5%;
+        right: -4%;
+    }
+
+
+    .lose, .win {
+        font-size: 80%;
+        margin-top: 300px;
+    }
+    
+    .play__again {
+        padding: 10px;
+        width: 100px;
+        font-size: 50%;
+        border-radius: 5px;
+    }
+}
