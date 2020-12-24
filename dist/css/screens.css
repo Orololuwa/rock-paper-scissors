@@ -41,7 +41,7 @@
 
     .settings{
         top: 2%;
-        right: 3%;
+        right: 5%;
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-end;
@@ -69,10 +69,15 @@
     }
 
     .rules{
-        font-size: 60%;
-        padding: 10px;
+        font-size: 55%;
+        padding: 2px;
         text-align: center;
-        width: 70px;
+        width: 65px;
+        height: 18px;
+        top: 1%;
+        left: 1%;
+        border-radius: 5px;
+        text-align: center;
     }
     .rules__display{
         letter-spacing: 5px;
@@ -154,27 +159,26 @@
 
     .score__player, 
     .score__house {
-        font-size: 25px;
-        margin-top: 400px;
-        letter-spacing: 3px;
+        font-size: 15px;
+        margin-top: 80px;
+        letter-spacing: 2px;
         position: absolute;
     }
     .score__player{
-        left: 10%;
+        left: 5%;
     }
     .score__house{
-        right: 10%;
+        right: 5%;
     }
     .score__box{
-        height: 70px;
-        width: 80px;
-        margin-top: 10px;
+        height: 40px;
+        width: 40px;
+        margin-top: 5px;
         padding-top: 3px;
     }
     .score{
-        margin-top: 5px;
+        margin-top: 0;
     }
-
 
 
     .player{
